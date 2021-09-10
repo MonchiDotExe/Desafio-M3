@@ -1,0 +1,360 @@
+body{
+  margin: 0;
+}
+/* /////////////////////////////////////////////////////////////////////////////////// */
+.inicio{
+  background-image:url(./img/puntitos.png);
+  background-size: auto;
+  width: auto;
+  height: 594px;
+  display: grid;
+  grid-template-rows: 1fr;
+  justify-content: center;
+}@media(min-width: 1440px){
+  .inicio{
+    grid-template-columns: 1fr;
+    height: 616px;
+    background-size: 50%;
+  }
+}
+.header{
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 17px;
+  align-items: center;
+}@media(min-width: 1440px){
+  .header{
+    grid-column:1/span 2;
+    height: 109px;
+    padding: 36px 80px;
+  }
+}
+.logo-inicio{
+  width: 50px;
+  height: 65px;
+}@media(min-width: 1440px){
+  .logo-inicio{
+    width: 95px;
+    height: 109px;
+  }
+}
+.shortcuts{
+  display: none;
+}@media(min-width: 1440px){
+  .shortcuts{
+    display: flex;
+    justify-content: space-between;
+    width: 428px;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 700;
+  }
+}
+.shortcut{
+  display: inline;
+}
+.menu{
+  width: 36px;
+  height: 32px;
+  display: grid;
+  grid-template-rows: 3;
+  gap: 7px;
+}@media(min-width: 1440px){
+  .menu{
+    display: none;
+  }
+}
+.barra{
+  background-color: #141414;
+  width: auto;
+  height: 6px;
+}
+.bienvenida{
+  font-family: "Open Sans";
+  font-size: 48px;
+  margin: 0px 40px;
+  display: flex;
+  text-align: center;
+}@media(min-width: 1440px){
+  .bienvenida{
+    grid-row: 2;
+    width: 313px;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 115px;
+  }
+}
+.foto{
+  width: 318px;
+  height: 340px;
+  justify-self: center;
+  margin-bottom: 0;
+}@media(min-width: 1440px){
+  .foto{
+    width: 350px;
+    height: 420px;
+    grid-row: 2;
+    padding-right: 90px;
+  }
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////////// */
+.intro{
+  width: auto;
+  height: 538px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: #141414;
+}@media(min-width: 1440px){
+  .intro{
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+}
+.texto-intro{
+  margin: 55px 30px 57px;
+}@media(min-width: 1440px){
+  .texto-intro{
+    width: 532px;
+    margin-left: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.titulo-intro{
+  font-family: "Open Sans";
+  font-size: 32px;
+  color: #FAFAFA;
+  text-align:center;
+  margin: 0 0 41px;
+}@media(min-width: 1440px){
+  .titulo-intro{
+    margin-bottom: 0px;
+    text-align: start;
+  }
+}
+.parrafo-intro{
+  font-family: "Roboto";
+  font-size: 16px;
+  color: #FAFAFA;
+  text-align: start;
+}@media(min-width: 1440px){
+  .parrafo-intro{
+    display: none;
+  }
+}
+.parrafo2-intro{
+  font-family: "Roboto";
+  font-size: 24px;
+  color: #FAFAFA;
+  text-align: center;
+  text-align: start;
+  display: none;
+}@media(min-width: 1440px){
+  .parrafo2-intro{
+    display: inline;
+  }
+}
+.check{
+  width: 80px;
+  height: 80px;
+  align-self: center;
+}@media(min-width: 1440px){
+  .check{
+    width: 211px;
+    height: 211px;
+  }
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+.servicios{
+  width: auto;
+  height: 1375px;
+  background-color: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+}@media(min-width: 1440px){
+  .servicios{
+    height: 604px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+.titulo-servicios{
+  font-family: "Open Sans";
+  font-size: 32px;
+  text-align: center;
+  padding-top: 70px;
+  margin: 0px;
+}@media(min-width: 1440px){
+  .titulo-servicios{
+    font-size: 48px;
+    padding-top: 59px;
+    grid-column: 1/-1;
+  }
+}
+.contenedor-servicios{
+  display:flex;
+  flex-direction: column;
+  place-items: center;
+  place-self: center;
+  width: 250px;
+  padding-top: 48px;
+  margin-bottom: 60px;
+}
+.pc{
+  width: 138px;
+  height: 128px;
+}
+.titulo-cosas{
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 24px;
+  margin: 0;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+.parrafo-cosas{
+  font-family: "Roboto";
+  font-size: 16px;
+  text-align: center;
+  margin: 0px;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+.contact{
+  width: auto;
+  height: 660px;
+  background-color: #141414;
+}@media(min-width: 1440px){
+  .contact{
+    display: flex;
+    justify-content: center;
+  }
+}
+.titulo-contact{
+  font-family: "Open Sans";
+  font-size: 32px;
+  color: #FAFAFA;
+  text-align: center;
+  padding-top: 70px;
+  margin: 0px;
+}@media(min-width: 1440px){
+  .titulo-contact{
+    font-size: 48px;
+    display: inline;
+    padding-top: 116px;
+  }
+}
+.formulario{
+  color: #FAFAFA;
+  font-family: "Roboto";
+  font-size: 13px;
+  width: 335px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}@media(min-width: 1440px){
+  .formulario{
+    width: 376px;
+    margin: 0px;
+    padding: 116px 77px
+  }
+}
+/* .etiqueta{} */
+.labels{
+  height: 33px;
+  /* padding-top: 27px; */
+}
+.data{
+  width: auto;
+  height: 45px;
+  border-color: #2C2C2C; 
+  border-radius: 5px;
+  margin-bottom: 17px;
+}
+.mensaje{
+  width: auto;
+  height: 113px;
+  border-color: #2C2C2C; 
+  border-radius: 5px;
+
+}
+.boton{
+  width: auto;
+  height: 45px;
+  background-color: #FFD953;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 60px;
+  padding: 0;
+  border-radius: 5px;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+.redes{
+  width: auto;
+  height: 493px;
+  background-color: #DBDBDB;
+}@media(min-width: 1440px){
+  .redes{
+    height: 346px;
+    background-image: url(./img/puntitos.png);
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.marca{
+  margin-left: 16px;
+  padding-top: 53px;
+}@media(min-width: 1440px){
+  .marca{
+    margin-left: 80px;
+    padding-top: 0px;
+    align-self: center;
+    width: 90px;
+  }
+}
+.logo-final{
+  width: 77px;
+  height: 100px;
+}@media(min-width: 1440px){
+  .logo-final{
+    width: 79px;
+    height: 103px;
+  }
+}
+.firma{
+  font-family: "Roboto";
+  font-size: 13px;
+  color: #2C2C2C;
+  margin-top: 18px;
+  margin-bottom: 0px;
+}
+.contenedor-redes{
+  padding-left: 16px;
+  padding-top: 85px;
+}@media(min-width: 1440px){
+  .contenedor-redes{
+    padding-right: 215px;
+    place-self: center;
+  }
+}
+.links{
+  display: flex;
+  margin-bottom: 30px;
+}
+.logo-red{
+  width: 28px;
+  height: 28px;
+}
+.nombre-red{
+  font-family: "Roboto";
+  font-size: 16px;
+  color: #2C2C2C;
+  margin: auto;
+  margin-left: 8px;
+}
