@@ -10,7 +10,7 @@ body{
   display: grid;
   grid-template-rows: 1fr;
   justify-content: center;
-}@media(min-width: 1440px){
+}@media(orientation: landscape){
   .inicio{
     grid-template-columns: 1fr;
     height: 616px;
@@ -23,7 +23,7 @@ body{
   justify-content: space-between;
   padding: 18px 17px;
   align-items: center;
-}@media(min-width: 1440px){
+}@media(orientation: landscape){
   .header{
     grid-column:1/span 2;
     height: 109px;
@@ -33,7 +33,7 @@ body{
 .logo-inicio{
   width: 50px;
   height: 65px;
-}@media(min-width: 1440px){
+}@media(orientation: landscape){
   .logo-inicio{
     width: 95px;
     height: 109px;
@@ -41,7 +41,7 @@ body{
 }
 .shortcuts{
   display: none;
-}@media(min-width: 1440px){
+}@media(orientation: landscape){
   .shortcuts{
     display: flex;
     justify-content: space-between;
@@ -60,7 +60,7 @@ body{
   display: grid;
   grid-template-rows: 3;
   gap: 7px;
-}@media(min-width: 1440px){
+}@media(orientation: landscape){
   .menu{
     display: none;
   }
@@ -76,7 +76,7 @@ body{
   margin: 0px 40px;
   display: flex;
   text-align: center;
-}@media(min-width: 1440px){
+}@media(orientation: landscape){
   .bienvenida{
     grid-row: 2;
     width: 313px;
@@ -90,7 +90,7 @@ body{
   height: 340px;
   justify-self: center;
   margin-bottom: 0;
-}@media(min-width: 1440px){
+}@media(orientation: landscape){
   .foto{
     width: 350px;
     height: 420px;
@@ -106,7 +106,7 @@ body{
   flex-direction: column;
   align-content: center;
   background-color: #141414;
-}@media(min-width: 1440px){
+}@media(orientation: landscape){
   .intro{
     flex-direction: row-reverse;
     justify-content: center;
@@ -114,7 +114,7 @@ body{
 }
 .texto-intro{
   margin: 55px 30px 57px;
-}@media(min-width: 1440px){
+}@media(orientation: landscape){
   .texto-intro{
     width: 532px;
     margin-left: 90px;
@@ -129,7 +129,7 @@ body{
   color: #FAFAFA;
   text-align:center;
   margin: 0 0 41px;
-}@media(min-width: 1440px){
+}@media(orientation: landscape){
   .titulo-intro{
     margin-bottom: 0px;
     text-align: start;
@@ -140,7 +140,7 @@ body{
   font-size: 16px;
   color: #FAFAFA;
   text-align: start;
-}@media(min-width: 1440px){
+}@media(orientation: landscape){
   .parrafo-intro{
     display: none;
   }
@@ -152,7 +152,7 @@ body{
   text-align: center;
   text-align: start;
   display: none;
-}@media(min-width: 1440px){
+}@media(orientation: landscape){
   .parrafo2-intro{
     display: inline;
   }
@@ -161,7 +161,7 @@ body{
   width: 80px;
   height: 80px;
   align-self: center;
-}@media(min-width: 1440px){
+}@media(orientation: landscape){
   .check{
     width: 211px;
     height: 211px;
@@ -174,7 +174,7 @@ body{
   background-color: #FAFAFA;
   display: flex;
   flex-direction: column;
-}@media(min-width: 1440px){
+}@media(orientation: landscape){
   .servicios{
     height: 604px;
     display: grid;
@@ -188,7 +188,7 @@ body{
   text-align: center;
   padding-top: 70px;
   margin: 0px;
-}@media(min-width: 1440px){
+}@media(orientation: landscape){
   .titulo-servicios{
     font-size: 48px;
     padding-top: 59px;
@@ -228,7 +228,7 @@ body{
   width: auto;
   height: 660px;
   background-color: #141414;
-}@media(min-width: 1440px){
+}@media(orientation: landscape){
   .contact{
     display: flex;
     justify-content: center;
@@ -241,7 +241,7 @@ body{
   text-align: center;
   padding-top: 70px;
   margin: 0px;
-}@media(min-width: 1440px){
+}@media(orientation: landscape){
   .titulo-contact{
     font-size: 48px;
     display: inline;
@@ -256,7 +256,7 @@ body{
   display: flex;
   flex-direction: column;
   margin: auto;
-}@media(min-width: 1440px){
+}@media(orientation: landscape){
   .formulario{
     width: 376px;
     margin: 0px;
@@ -298,7 +298,7 @@ body{
   width: auto;
   height: 493px;
   background-color: #DBDBDB;
-}@media(min-width: 1440px){
+}@media(orientation: landscape){
   .redes{
     height: 346px;
     background-image: url(./img/puntitos.png);
@@ -310,7 +310,7 @@ body{
 .marca{
   margin-left: 16px;
   padding-top: 53px;
-}@media(min-width: 1440px){
+}@media(orientation: landscape){
   .marca{
     margin-left: 80px;
     padding-top: 0px;
@@ -321,7 +321,7 @@ body{
 .logo-final{
   width: 77px;
   height: 100px;
-}@media(min-width: 1440px){
+}@media(orientation: landscape){
   .logo-final{
     width: 79px;
     height: 103px;
@@ -337,7 +337,7 @@ body{
 .contenedor-redes{
   padding-left: 16px;
   padding-top: 85px;
-}@media(min-width: 1440px){
+}@media(orientation: landscape){
   .contenedor-redes{
     padding-right: 215px;
     place-self: center;
